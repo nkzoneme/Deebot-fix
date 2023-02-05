@@ -17,7 +17,7 @@ class DeviceInfo(dict):
     @property
     def did(self) -> str:
         """Return did."""
-        return str(self["did"])
+        return '1e991e5c-02cb-4bba-a85e-cf9876e7de5a'
 
     @property
     def name(self) -> str:
